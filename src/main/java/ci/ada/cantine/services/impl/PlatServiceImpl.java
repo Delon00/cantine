@@ -48,7 +48,7 @@ public class PlatServiceImpl implements PlatService {
 
     @Override
     public void delete(Long id) {
-
+        platRepository.deleteById(id);
     }
 
     @Override
